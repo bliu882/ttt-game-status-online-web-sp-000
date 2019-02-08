@@ -36,7 +36,7 @@ def won?(board)
   end
 end
 
-def full(board)
+def full?(board)
   if board.detect {|i| i == " " || i == nil}
     return false
   else
