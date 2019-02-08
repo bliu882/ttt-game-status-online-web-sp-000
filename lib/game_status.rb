@@ -56,11 +56,3 @@ def over?(board)
   won?(board) || full?(board)
 end
 
-def winner 
-  if won?(baord).each {|i| i == "X"}
-    return "X"
-  else 
-    return "O"
-  end
-end
-  
