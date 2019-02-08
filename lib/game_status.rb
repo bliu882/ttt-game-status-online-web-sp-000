@@ -43,3 +43,11 @@ def full?(board)
     return true
   end
 end
+
+def draw?(board)
+  if draw_baord 
+    return true
+  else
+    return false
+  end
+end
