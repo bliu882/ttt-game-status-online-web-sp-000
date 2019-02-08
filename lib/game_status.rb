@@ -37,4 +37,9 @@ def won?(board)
 end
 
 def full(board)
-  if full_board
+  if board.detect {|n| n == " " || n == nil}
+    return false
+  else
+    return true
+  end
+end
