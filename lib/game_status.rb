@@ -45,7 +45,7 @@ def full?(board)
 end
 
 def draw?(board)
-  if draw_baord 
+  if draw_baord != won?board && draw_board == full?(board)
     return true
   else
     return false
